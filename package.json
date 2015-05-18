@@ -23,11 +23,12 @@
     "url": "https://github.com/Naxmeify/sails-shoulda/issues"
   },
   "homepage": "https://github.com/Naxmeify/sails-shoulda",
-  "dependencies": {
-    "should": "^6.0.1"
-  },
   "devDependencies": {
     "mocha": "^2.2.4",
-    "sails": "^0.11.0"
+    "should": "^6.0.1"
+  },
+  
+  "peerDependencies": {
+    "should": ">= 4.x"
   }
 }
