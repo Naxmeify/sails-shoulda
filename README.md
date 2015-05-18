@@ -1,6 +1,8 @@
 sails-shoulda
 =====
 
+[![Build Status](https://travis-ci.org/Ninevillage/sails-shoulda.svg?branch=master)](https://travis-ci.org/Ninevillage/sails-shoulda)
+
 Collection of method for sailsjs testing. Provides common shortcuts.
 
 # Installation
@@ -24,11 +26,11 @@ describe("Model: User", function() {
    context('attribute', function() {
       context('email', function() {
         it('should be required', function(done) {
-          should.validate_require_of(User, 'email', done);
+          User.should.validate_require_of('email', done);
         });
         
         it('should be unique', function(done) {
-          should.validate_unqiue_of(User, 'email', done);
+          User.should.validate_unqiue_of('email', done);
         });
       });
    });
