@@ -1,0 +1,33 @@
+{
+  "name": "sails-shoulda",
+  "version": "0.0.1",
+  "description": "provides mocha / should compatible one-liners that test common sails funcionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Naxmeify/sails-shoulda.git"
+  },
+  "keywords": [
+    "shoulda",
+    "mocha",
+    "should",
+    "common",
+    "test"
+  ],
+  "author": "Ninevillage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Naxmeify/sails-shoulda/issues"
+  },
+  "homepage": "https://github.com/Naxmeify/sails-shoulda",
+  "dependencies": {
+    "should": "^6.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "sails": "^0.11.0"
+  }
+}
