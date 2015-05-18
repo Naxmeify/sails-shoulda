@@ -1,5 +1,5 @@
 require('should-approximately-deep');
-require('../index');
+require('../../');
 
 describe('NodeModule Shoulda', function() {
   it('should', function() {
